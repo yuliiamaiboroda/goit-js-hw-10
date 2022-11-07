@@ -6,6 +6,6 @@ return fetch(`${linkOfApi}name/${name}`).then(response =>{
     throw new Error(response.status);
 }
 return response.json()}
-    ).catch(err=> console.log(err))
+    )
 }
 
