@@ -39,7 +39,7 @@ function handleSeachCountry(){
     
     counrtyListEl.innerHTML =  createListOfCountries(data) ;
 
-   }).catch(err => Notify.failure(err));
+   }).catch(err => Notify.failure('Oops, there is no country with that name'));
 
 }
 
